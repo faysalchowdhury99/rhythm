@@ -1,0 +1,47 @@
+
+@media screen and (max-width:991px){
+    .section{
+        text-align: center;
+    }
+    #menu-section, #location-section{
+        text-align: left;
+    }
+    .navbar-nav{
+        background-color: #000000;
+        padding: 1rem 2rem 2rem 2rem;
+    }
+    .nav-link{
+        margin: 0;
+        display: inline-block !important;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width:767px){
+    .header-content h1{
+        letter-spacing: 1rem;
+    }
+    .header-content p{
+        letter-spacing: .2rem;
+    }
+}
+@media screen and (max-width:575px){
+    .header-content h1{
+        font-size: 3.5rem;
+    }
+    .section{
+        padding: 7rem 0;
+    }
+    .heading{
+        font-size: 3rem;
+      }
+}
+@media screen and (max-width:325px){
+    .header-content h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width:529px){
+    .remove-mt{
+        margin-top: 0 !important;
+    }
+}
